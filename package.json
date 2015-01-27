@@ -1,0 +1,28 @@
+{
+  "name": "waoffle",
+  "version": "1.0.0",
+  "description": "Redis AOF parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "waoffle": "./lib/parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvite/waoffle"
+  },
+  "keywords": [
+    "redis",
+    "aof",
+    "parser",
+    "protocol"
+  ],
+  "author": "Evan Dudla <evan@nvite.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvite/waoffle/issues"
+  },
+  "homepage": "https://github.com/nvite/waoffle"
+}
