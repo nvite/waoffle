@@ -38,10 +38,3 @@ Each of the three cases above are equivalent. The generated output will be strea
 ``` bash
 $ woaffle < appendonly.aof > generated_commands.txt
 ```
-
-# Importing back into Redis
-This is useful when wanting to import a large dataset of Redis data into another server without having to take it down. `redis-cli` comes with a `--pipe` option to which you can do:
-``` bash
-$ waoffle < appendonly.aof | redis-cli --pipe
-```
-Hooray! Datums!
