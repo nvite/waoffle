@@ -1,6 +1,6 @@
 {
   "name": "waoffle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Redis AOF parser",
   "main": "index.js",
   "scripts": {
