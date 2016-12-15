@@ -38,7 +38,7 @@ $ waoffle appendonly.aof        # or, just specify the filename
 ```
 Each of the three cases above are equivalent. The generated output will be streamed to stdout, to which you can dump into a file using redirection:
 ``` bash
-$ woaffle < appendonly.aof > generated_commands.txt
+$ waoffle < appendonly.aof > generated_commands.txt
 ```
 
 The reverse process—going from sets of operations to AOF format—can be achieved in the same manner by substituting calls to `waoffle` for `rwaoffle`.
